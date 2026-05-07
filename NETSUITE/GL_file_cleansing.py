@@ -63,7 +63,7 @@ import pandas as pd
 
 #cashflow_input_file = r"/mnt/data/CashFlowStatement547.xls"   # your uploaded file
 
-# === Step 1: Read the raw Excel file ===
+# === Step 1: Read the raw Excel file ====
 df = pd.read_excel(cashflow_input_file, header=None)
 
 # === Step 2: Extract month name (line after "Cash Flow Statement") ===

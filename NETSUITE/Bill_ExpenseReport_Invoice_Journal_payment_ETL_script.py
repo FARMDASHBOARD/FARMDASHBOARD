@@ -81,7 +81,7 @@ if not batch_companies:
     print(f"❌ No companies found for batch: {args.batch}")
     sys.exit(1)
 
-print(f"✅ Batch {args.batch} contains companies: {batch_companies}")
+print(f"✅ Batch {args.batch}contains companies: {batch_companies}")
 
 # Logic fix on 19 Feb 2026 
 #df["Subsidiary_clean"] = (
