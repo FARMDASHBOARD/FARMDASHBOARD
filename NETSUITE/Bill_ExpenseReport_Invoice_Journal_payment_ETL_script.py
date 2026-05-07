@@ -17,7 +17,7 @@ company_list_file = r"C:\Broad_field_holdings\Net_suite\JR\Company_list.xlsx"
 os.makedirs(os.path.dirname(output_excel), exist_ok=True)
 
 print("========================================")
-print("🚀 Running ETL Transformation for Bill / Expense Report / Invoice File")
+print("🚀 Running ETL Transformation for Bill / Expense Report / Invoice  File")
 print("========================================")
 
 # === Step 3: Load Excel ===
